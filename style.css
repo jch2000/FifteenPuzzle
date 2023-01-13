@@ -1,0 +1,131 @@
+body {
+  background-color: lightgrey;
+}
+
+.puzzle {
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tile {
+  width: 96px;
+  height: 96px;
+  border: 2px solid black;
+  position: absolute;
+  background-image: url(./img/mario.jpg);
+  background-size: 400px 400px;
+  cursor: pointer;
+}
+
+.number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 32px;
+  text-shadow: 1px 1px 2px black;
+  font-family: sans-serif;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 5px;
+  
+}
+
+a {
+  color: green;
+}
+
+#instructions_head {
+  margin-bottom: 0px;
+}
+
+#instuctions_container {
+  padding-top: 0px;
+}
+
+#instructions_container ul {
+  font-size: 20px;
+  text-align: center;
+  list-style-type: none;
+}
+
+#img_options_container {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 25px;
+  justify-content: center;
+}
+
+#img_options {
+  list-style-type: none;
+}
+
+.box {
+  float: left;
+  width: 25%;
+}
+
+#img_options img {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-color: black;
+  margin: 4px;
+  transition: 0.3s;
+}
+
+#records_container {
+  padding-bottom: 25px;
+}
+
+#records {
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 0px;
+}
+
+#records th, td {
+  text-align: center;
+  font-size: 20px;
+}
+
+#records th {
+  background-color: black;
+  color: white;
+  padding: 5px 20px;
+}
+
+#records td {
+  color: black;
+  font-weight: bold;
+}
+
+.shuffle-button {
+  display: block;
+  margin: 25px auto 25px auto;
+  background-color: lightgreen;
+  border-radius: 12px;
+  font-size: 24px;
+  padding: 12px 28px;
+  border: 2px solid black;
+}
